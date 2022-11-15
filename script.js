@@ -4,7 +4,7 @@ function boxes() {
     grid.innerHTML = "";
     for (let i = 0; i < n; i++) {
         let img = document.createElement("img");
-        img.src ="/images/giftboxes.png";
+        img.src ="./images/giftboxes.png";
         img.alt = "Loading...";
         grid.appendChild(img);
     }
